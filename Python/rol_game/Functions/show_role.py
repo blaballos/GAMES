@@ -3,13 +3,13 @@ def show_role():
     
     if role == '1':
         print('\nCharacteristics of the Warrior:')
-        print('Health: 150 ❤\nDamage: 120 🗡\nAttack speed: 1.2s 🕰')
+        print('Health: 290 ❤\nDamage: 110 🗡\nAttack speed: 1.2s 🕰')
     elif role == '2':
         print('\nCharacteristics of the Wizard:')
-        print('Health: 120 ❤\nDamage: 170 🗡\nAttack speed: 1.6s 🕰')
+        print('Health: 260 ❤\nDamage: 130 🗡\nAttack speed: 1.5s 🕰')
     elif role == '3':
         print('\nCharacteristics of the Golem:')
-        print('Health: 350 ❤\nDamage: 200 🗡\nAttack speed: 2.1s 🕰')
+        print('Health: 400 ❤\nDamage: 160 🗡\nAttack speed: 2.3s 🕰')
         
     confirm = input('\n1. Back\nConfirm\nSelect an option: ')
     return confirm
