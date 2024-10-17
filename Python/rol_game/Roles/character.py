@@ -1,6 +1,7 @@
-# IMPORTS
+from Actions.attack import Attack
+from Actions.defend import Defend
 
-class Character():
+class Character(Attack, Defend):
     def __init__(self, name, health, damage, attack_speed):
         self.name = name
         self.health = health
