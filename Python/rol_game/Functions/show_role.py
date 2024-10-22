@@ -12,4 +12,4 @@ def show_role():
         print('Health: 400 ❤\nDamage: 160 🗡\nAttack speed: 2.3s 🕰')
         
     confirm = input('\n1. Back\nConfirm\nSelect an option: ')
-    return confirm
+    return role, confirm
