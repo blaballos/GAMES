@@ -1,7 +1,4 @@
-from Roles.warrior import Warrior
-from Roles.wizard import Wizard
-from Roles.golem import Golem
-from Roles.enemy import Enemy
+from Roles.character import Enemy, Warrior, Wizard, Golem
 
 def confirm_role(name, role, confirmation):
     if confirmation == '2':
