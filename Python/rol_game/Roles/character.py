@@ -23,3 +23,15 @@ class Character():
             self.health -= damage_enemy
         else:
             print(f'{self.name} successfully defended himself')
+            
+class Enemy(Character):
+    pass
+
+class Warrior(Character):
+    pass
+
+class Wizard(Character):
+    pass
+
+class Golem(Character):
+    pass
